@@ -51,3 +51,52 @@ div.grid-container {
   img.scale {width:50%; height:auto;}
 }
 
+.sorry {
+  color:blueviolet;
+  background-image: url(..Images/quinn-villarreal-x9z0aFcHiyk-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+}
+
+div.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+div.flex-container > div {
+  padding: 100px;
+  font: 1.25em sans-serif;
+}
+
+div.sorry > div > a > button {
+    background-color: gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+div.flex-container > div > a > button {
+    background-color: gray;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 75px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+
+.heading {
+  color:gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
