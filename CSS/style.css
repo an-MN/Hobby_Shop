@@ -33,8 +33,9 @@ div.grid-container {
   background-color: rgb(236, 243, 245);
   
 }
-.img.scale {
-  width:75%; height:auto;}
+.scale {
+  /*width:50%; height:auto;*/
+}
 
 .scale {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
@@ -47,10 +48,10 @@ header {grid-column: span 3;
 @media only screen and (max-width: 600px) {
 div.grid-container {
   grid-template-rows: repeat(7, auto);}
-  .scale {grid-column: span 3;}
-  img.scale {width:50%; height:auto;}
+  a {grid-column: span 3;}
+  .scale {width:75%; height:auto;
+  }
 }
-
 .sorry {
   color:blueviolet;
   background-image: url(..Images/quinn-villarreal-x9z0aFcHiyk-unsplash.jpg);
